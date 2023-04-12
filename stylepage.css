@@ -3,27 +3,31 @@
         background-color: beige;
         
    } 
-}
-p {
-    border: 2px solid ;
-    border-radius: 5px;
-  }
-
-h1{
-    text-align: center;
-}
-@media (min-width: 700px) {
-    body{
-        background-color: aquamarine;
-    }
-    
-}
-
-.card {
+   .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
+}
+
+
+h1{
+    text-align: center;
+}
+@media (min-width: 640px) {
+    body{
+        background-color: aquamarine;
+    }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        border: solid;
+        transition: 0.3s;
+      }
+    
+}
+
+
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
