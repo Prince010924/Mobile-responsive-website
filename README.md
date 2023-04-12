@@ -1,2 +1,2 @@
 # Mobile-responsive-website
-Just fpr fun
+Just for fun
